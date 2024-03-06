@@ -17,7 +17,7 @@ public class testng {
     }
     @Test
     public void testCase1() throws InterruptedException {
-
+        System.out.println("hello");
         driver.get("https://www.facebook.com/");
         Thread.sleep(400);
     }
