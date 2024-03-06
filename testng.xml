@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="iretryanalysis.IAnnotationTransaformaerExample"></listener>
+    </listeners>
+    <parameter name="courseName" value="Selenium"></parameter>
+    <parameter name="cityName" value="pune"></parameter>
+    <parameter name="browserName" value="edge"></parameter>
+    <test verbose="2" preserve-order="true" parallel="false" thread-count="2" name="C:/Users/Hp/IdeaProjects/MavenProject">
+        <classes>
+<!--            <class name="parameterization.WithParameterization"/>-->
+<!--            <class name="parameterization.NeedOfParameterization"/>-->
+<!--            <class name="parameterization.NormalDataProvider"/>-->
+<!--            <class name="parameterization.DataProviderWithExcel"/>-->
+            <class name="failtest.Test1"/>
+            <class name="failtest.Test2"/>
+
+        </classes>
+    </test>
+</suite>
