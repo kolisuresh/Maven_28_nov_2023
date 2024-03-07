@@ -13,6 +13,7 @@ public class testng {
     public void beforeMethodExample(){
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\Hp\\Downloads\\chromedriver-win64\\chromedriver-win64\\chromedriver.exe");
         driver = new ChromeDriver();
+        System.out.println("hello");
 
     }
     @Test
